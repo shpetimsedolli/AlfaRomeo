@@ -120,7 +120,12 @@
   padding: 165px 0px;
 }
 .main_footer {
-  margin-top: 200px;
+  padding-top: 130px;
+  background: linear-gradient(
+    0deg,
+    hsla(0, 0%, 100%, 1) 21%,
+    hsla(0, 0%, 96%, 1) 22%
+  );
 }
 .footer_img {
   width: 300px;
@@ -130,6 +135,7 @@
 .footerwrap {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 50px;
 }
 .footer__contact {
   background: #000;
@@ -166,7 +172,9 @@
   font-size: 70px;
   margin-bottom: 20px;
 }
-
+.footer__tittle p {
+  margin-bottom: 50px;
+}
 .icons img {
   margin-right: 50px;
   margin-bottom: 50px;
