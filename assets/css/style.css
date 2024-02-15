@@ -93,8 +93,30 @@
   display: flex;
   height: 45vh;
 }
-
 .interior__btn img {
   width: 200px;
   object-fit: cover;
+}
+.engine {
+  position: relative;
+  height: 45vh;
+  background: linear-gradient(
+    0deg,
+    hsla(0, 0%, 100%, 1) 65%,
+    hsla(0, 0%, 0%, 1) 67%
+  );
+}
+.engine-background {
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+.engine__left img {
+  width: 500px;
+}
+.enginewrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 165px 0px;
 }
