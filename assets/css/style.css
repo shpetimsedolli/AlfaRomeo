@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.main_content {
+  background: url(/assets/images/alfa-romeo-giulia-gta-m-coupe-4k-zd.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.headerwrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerwrap img {
+  width: 300px;
+}
+.btn {
+  background-color: #de0e0b;
+  padding: 20px 50px;
+  color: #fff;
+  border: none;
+}
