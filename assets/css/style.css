@@ -54,3 +54,47 @@
   color: #de0e0b;
   font-size: 20px;
 }
+.introwrap {
+  background: url(/assets/images/Union\ 1.png);
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0px;
+}
+.introwrap img {
+  width: 742px;
+  /* object-fit: scale-down; */
+  border-radius: 30px;
+  object-fit: cover;
+}
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.intro__content a {
+  text-decoration: none;
+  color: #de0e0b;
+}
+.intro__content h3 {
+  font-size: 60px;
+}
+.interior {
+  background: url(/assets/images/interior.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.interior__images img {
+  width: 300px;
+}
+.interiorwrap {
+  position: relative;
+  display: flex;
+  height: 45vh;
+}
+
+.interior__btn img {
+  width: 200px;
+  object-fit: cover;
+}
