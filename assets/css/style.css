@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 #preloader {
   background: #fff url(../images/gif.gif) no-repeat center;
   height: 100vh;
@@ -231,4 +234,10 @@
 .footer__icons p {
   font-size: 20px;
   color: #adadad;
+}
+.btn__bottom {
+  position: fixed;
+  z-index: 332;
+  bottom: 1rem;
+  left: 1rem;
 }
