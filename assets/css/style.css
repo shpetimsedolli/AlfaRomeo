@@ -4,7 +4,7 @@
   padding: 0;
 }
 #preloader {
-  background: #fff url(/assets/images/gif.gif) no-repeat center;
+  background: #fff url(../images/gif.gif) no-repeat center;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -16,7 +16,7 @@
   padding: 0px 15px;
 }
 .main_content {
-  background: url(/assets/images/alfa-romeo-giulia-gta-m-coupe-4k-zd.jpg);
+  background: url(../images/alfa-romeo-giulia-gta-m-coupe-4k-zd.jpg);
   height: 100vh;
   background-size: cover;
   box-shadow: 615px 10px 75px 0px rgba(0, 0, 0, 0.56) inset;
@@ -85,7 +85,7 @@
   opacity: 1;
 }
 .introwrap {
-  background: url(/assets/images/Union\ 1.png);
+  background: url(../images/Union\ 1.png);
   background-repeat: no-repeat;
   height: 60vh;
   display: flex;
@@ -130,7 +130,7 @@
   font-size: 60px;
 }
 .interior {
-  background: url(/assets/images/interior.jpg);
+  background: url(../images/interior.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
