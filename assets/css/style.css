@@ -56,10 +56,11 @@ html {
   bottom: 10%;
   left: 10%;
 }
-.main__title h1 {
+.auto-type {
   color: #fff;
   font-size: 60px;
   margin: 20px 0px;
+  font-weight: bold;
 }
 .main__title p {
   color: #adadad;

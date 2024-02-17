@@ -37,3 +37,10 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+var typed = new Typed(".auto-type", {
+  strings: ["UNLEASH TRUE POWER", "NEW PERFORMANCE", "NEW BEAST"],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true,
+});
